@@ -1,4 +1,5 @@
 from logic import Board, Game, Human, Bot
+import pytest
 def test_empty_board():
     board = Board()
     for x in range(3):
